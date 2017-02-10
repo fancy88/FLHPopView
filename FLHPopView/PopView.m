@@ -115,6 +115,7 @@
     [UIView animateWithDuration:0.25 animations:^{
         
         self.backgroundView.frame = CGRectMake(self.origin.x, self.origin.y, 0, 0);
+        
     } completion:^(BOOL finished) {
         
         [self removeFromSuperview];
