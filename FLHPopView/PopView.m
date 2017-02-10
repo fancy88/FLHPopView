@@ -77,9 +77,9 @@
     [windowView addSubview:self];
     
     self.backgroundView.frame = CGRectMake(self.origin.x, self.origin.y + Length, 0, 0);
-    CGFloat origin_x = self.origin.x - self.width / 2;
-    CGFloat origin_y = self.origin.y + Length;
-    CGFloat size_width = self.width;
+    CGFloat origin_x    = self.origin.x - self.width / 2;
+    CGFloat origin_y    = self.origin.y + Length;
+    CGFloat size_width  = self.width;
     CGFloat size_height = self.height;
     [self startAnimateView_x:origin_x _y:origin_y origin_width:size_width origin_height:size_height];
 }
@@ -102,7 +102,7 @@
 - (void)dismiss
 {
     /**
-     *  删除 在backGroundView 上的子控件
+     *  删除 在backgroundView 上的子控件
      */
     NSArray *results = [self.backgroundView subviews];
     
