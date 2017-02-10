@@ -44,7 +44,6 @@
         self.backgroundView = [[UIView alloc] initWithFrame:CGRectMake(origin.x, origin.y, width, height)];
         self.backgroundView.backgroundColor = color;
         [self addSubview:self.backgroundView];
-        
         //添加tableView
         [self.backgroundView addSubview:self.tableView];
     }
