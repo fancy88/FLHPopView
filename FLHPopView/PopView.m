@@ -90,7 +90,7 @@
               origin_width:(CGFloat) width
              origin_height:(CGFloat) height
 {
-    [UIView animateWithDuration:0.25 animations:^{
+    [UIView animateWithDuration:0.30 animations:^{
         self.backgroundView.frame = CGRectMake(x, y, width, height);
     }completion:^(BOOL finished) {
         NSArray *results = [self.backgroundView subviews];
