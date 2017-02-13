@@ -11,7 +11,6 @@
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 #define Length 5
-#define Length2 15
 
 @interface PopView ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -38,7 +37,7 @@
     if (self) {
         self.backgroundColor = [UIColor clearColor];
         self.origin = origin;
-        self.width = width;
+        self.width  = width;
         self.height = height;
         
         self.backgroundView = [[UIView alloc] initWithFrame:CGRectMake(origin.x, origin.y, width, height)];
