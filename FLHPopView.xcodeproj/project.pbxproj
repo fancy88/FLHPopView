@@ -14,6 +14,7 @@
 		185B568F1E4D629A004CE82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B568E1E4D629A004CE82E /* Assets.xcassets */; };
 		185B56921E4D629A004CE82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B56901E4D629A004CE82E /* LaunchScreen.storyboard */; };
 		185B569B1E4D62D2004CE82E /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B569A1E4D62D2004CE82E /* PopView.m */; };
+		189835121E51B11800068C81 /* README.mm in Sources */ = {isa = PBXBuildFile; fileRef = 189835111E51B11800068C81 /* README.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		185B56931E4D629A004CE82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185B56991E4D62D2004CE82E /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
 		185B569A1E4D62D2004CE82E /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
+		189835111E51B11800068C81 /* README.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = README.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				185B56851E4D629A004CE82E /* AppDelegate.h */,
 				185B56861E4D629A004CE82E /* AppDelegate.m */,
+				189835111E51B11800068C81 /* README.mm */,
 				185B56991E4D62D2004CE82E /* PopView.h */,
 				185B569A1E4D62D2004CE82E /* PopView.m */,
 				185B56881E4D629A004CE82E /* ViewController.h */,
@@ -159,6 +162,7 @@
 				185B56871E4D629A004CE82E /* AppDelegate.m in Sources */,
 				185B569B1E4D62D2004CE82E /* PopView.m in Sources */,
 				185B56841E4D629A004CE82E /* main.m in Sources */,
+				189835121E51B11800068C81 /* README.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +321,7 @@
 				185B56981E4D629A004CE82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
