@@ -39,7 +39,7 @@
     CGPoint point = CGPointMake(button.center.x, button.frame.origin.y + 30);
     PopView *view = [[PopView alloc] initWithOrigin:point Width:button.frame.size.width * 0.5 Height:44 * 5 Color:[UIColor whiteColor]];
     view.dataArray = self.dataArr;
-    view.delegate = self;
+    view.delegate  = self;
     [view popView];
     
 }
