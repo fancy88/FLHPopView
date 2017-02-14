@@ -30,7 +30,7 @@
     [self.clickBtn addTarget:self action:@selector(clickBtnAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.clickBtn];
     
-    self.dataArr = [NSArray arrayWithObjects:@"日计划",@"周计划",@"月计划",@"季度计划",@"年计划", nil];
+    self.dataArr = [NSArray arrayWithObjects:@"日计划",@"周计划",@"月计划",@"季计划",@"年计划", nil];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
