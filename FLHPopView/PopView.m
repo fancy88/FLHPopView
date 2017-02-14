@@ -88,7 +88,7 @@
               origin_width:(CGFloat) width
              origin_height:(CGFloat) height
 {
-    [UIView animateWithDuration:0.30 animations:^{
+    [UIView animateWithDuration:0.25 animations:^{
         self.backgroundView.frame = CGRectMake(x, y, width, height);
     }completion:^(BOOL finished) {
         NSArray *results = [self.backgroundView subviews];
@@ -130,7 +130,7 @@
 - (UITableView *)tableView{
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.backgroundView.frame.size.width - 5, self.backgroundView.frame.size.height)];
-        _tableView.delegate = self;
+        _tableView.delegate   = self;
         _tableView.dataSource = self;
         _tableView.backgroundColor = [UIColor clearColor];
     }
@@ -140,7 +140,9 @@
 #pragma mark - UITableViewDelegate & UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
     return self.dataArray.count;
+    
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
