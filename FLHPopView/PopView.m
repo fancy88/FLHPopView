@@ -81,11 +81,11 @@
     CGFloat origin_y    = self.origin.y + Length;
     CGFloat size_width  = self.width;
     CGFloat size_height = self.height;
-    [self startAnimateView_x:origin_x _y:origin_y origin_width:size_width origin_height:size_height];
+    [self startAnimateView_x:origin_x origin_y:origin_y origin_width:size_width origin_height:size_height];
 }
 
 - (void)startAnimateView_x:(CGFloat) x
-                        _y:(CGFloat) y
+                  origin_y:(CGFloat) y
               origin_width:(CGFloat) width
              origin_height:(CGFloat) height
 {
