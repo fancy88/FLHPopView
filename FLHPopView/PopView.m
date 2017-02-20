@@ -51,8 +51,8 @@
 }
 
 - (void)drawRect:(CGRect)rect{
-     CGContextRef context = UIGraphicsGetCurrentContext();
     
+     CGContextRef context = UIGraphicsGetCurrentContext();
      CGFloat startX = self.origin.x;
      CGFloat startY = self.origin.y;
      CGContextMoveToPoint(context, startX, startY);
@@ -63,6 +63,7 @@
      [self.backgroundView.backgroundColor setFill];
      [self.backgroundColor setStroke];
      CGContextDrawPath(context, kCGPathFillStroke);
+    
 }
 
 #pragma mark - popView
